@@ -1,5 +1,4 @@
 # geometric_calculator/calculator.py
-#changes
 from .shapes import Circle, Rectangle, Triangle
 
 class Calculator:
