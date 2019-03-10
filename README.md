@@ -1,4 +1,4 @@
-# Geometric Calculator
+# PyExchange: Live Currency Conversion
 
 A simple command-line utility for calculating the area of different geometric shapes.
 
