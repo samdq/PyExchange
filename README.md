@@ -1,6 +1,6 @@
 # PyExchange: Live Currency Conversion
 
-A simple command-line utility for calculating the area of different geometric shapes.
+This Python script utilizes APIs like CurrencyLayer & Fixer.io to fetch real-time exchange rates and convert between various currencies.
 
 ## Usage
 
