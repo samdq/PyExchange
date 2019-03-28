@@ -16,6 +16,15 @@ $ python pyexchange.py
 
 Enter the amount, source currency code, and target currency code when prompted.
 
+## Directory Structure:
+```
+pyexchange/
+│
+├── api_key.txt
+├── pyexchange.py
+
+```
+
 ## Dependencies:
 Python 3.x
 requests library
