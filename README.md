@@ -16,3 +16,7 @@ $ python pyexchange.py
 
 Enter the amount, source currency code, and target currency code when prompted.
 
+## Dependencies:
+Python 3.x
+requests library
+
