@@ -12,3 +12,7 @@ This Python script utilizes APIs like CurrencyLayer & Fixer.io to fetch real-tim
 
 ```bash
 $ python pyexchange.py
+```
+
+Enter the amount, source currency code, and target currency code when prompted.
+
