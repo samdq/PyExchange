@@ -22,6 +22,8 @@ pyexchange/
 │
 ├── api_key.txt
 ├── pyexchange.py
+├── exchange_rates.py
+├── user_interface.py
 
 ```
 
