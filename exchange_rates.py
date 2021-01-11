@@ -14,13 +14,3 @@ def get_exchange_rate(from_currency, to_currency):
     if response.status_code == 200 and data["success"]:
         rates = data["quotes"]
         key = f"{from_currency}{to_currency}"
-        if key in rates:
-            return rates[key]
-        else:
-            return None
-    else:
-        # Handle API request error
-        return None
-
-def get_api_key(api_name):
-    with open("api_key.txt", "r") as file:
