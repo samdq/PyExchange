@@ -7,10 +7,3 @@ def get_exchange_rate(from_currency, to_currency):
     # Use the API keys stored in api_key.txt
     # Example using CurrencyLayer API
     currency_layer_api_key = get_api_key("CURRENCYLAYER")
-    currency_layer_url = f"https://api.currencylayer.com/live?access_key={currency_layer_api_key}"
-    response = requests.get(currency_layer_url)
-    data = response.json()
-
-    if response.status_code == 200 and data["success"]:
-        rates = data["quotes"]
-        key = f"{from_currency}{to_currency}"
