@@ -18,3 +18,6 @@ def get_exchange_rate(from_currency, to_currency):
             return rates[key]
         else:
             return None
+    else:
+        # Handle API request error
+        return None
