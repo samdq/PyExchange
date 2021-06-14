@@ -21,3 +21,5 @@ def get_exchange_rate(from_currency, to_currency):
     else:
         # Handle API request error
         return None
+def get_api_key(api_name):
+    with open("api_key.txt", "r") as file:
