@@ -23,3 +23,5 @@ def get_exchange_rate(from_currency, to_currency):
         return None
 def get_api_key(api_name):
     with open("api_key.txt", "r") as file:
+        for line in file:
+            if line.startswith(api_name):
