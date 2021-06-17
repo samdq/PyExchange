@@ -25,3 +25,5 @@ def get_api_key(api_name):
     with open("api_key.txt", "r") as file:
         for line in file:
             if line.startswith(api_name):
+                return line.strip().split()[1]
+        return None
