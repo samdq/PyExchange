@@ -31,5 +31,3 @@ pyexchange/
 ## Dependencies:
 Python 3.x
 requests library
-
-hello
