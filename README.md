@@ -15,3 +15,21 @@ This Python script utilizes APIs like CurrencyLayer & Fixer.io to fetch real-tim
 $ python pyexchange.py
 ```
 
+Enter the amount, source currency code, and target currency code when prompted.
+
+## Directory Structure:
+```
+pyexchange/
+│
+├── api_key.txt
+├── pyexchange.py
+├── exchange_rates.py
+├── user_interface.py
+└── README.md
+```
+
+## Dependencies:
+Python 3.x
+requests library
+
+hello
