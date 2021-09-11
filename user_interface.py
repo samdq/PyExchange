@@ -7,3 +7,5 @@ if __name__ == "__main__":
     to_currency = input("Enter the target currency code: ")
 
     result = convert_currency(amount, from_currency, to_currency)
+
+    if result is not None:
