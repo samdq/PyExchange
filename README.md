@@ -22,5 +22,3 @@ python
 Copy code
 days_in_year = 365.2425    
 age = int((date.today() - dob).days / days_in_year)
-Requirements
-Python 3.x
